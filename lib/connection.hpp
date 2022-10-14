@@ -139,7 +139,7 @@ namespace http10
             request_handler& request_handler_;
 
             /// Buffer for incoming data.
-            std::array<char, 32256> buffer_;
+            std::array<char, 4096> buffer_;
 
             /// The incoming request.
             request request_;

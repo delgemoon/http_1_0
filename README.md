@@ -29,3 +29,9 @@ false: detach or not
 
 1. Support HTTP GET/1.0 Method
 2. 700 concurrent connection per second
+
+## NOTE: you might want to change
+
+```shell
+ulimit -n 10000
+```
